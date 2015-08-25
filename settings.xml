@@ -4,7 +4,7 @@
             <!--This sends everything else to /public -->
             <id>nexus</id>
             <mirrorOf>*</mirrorOf>
-            <url>http://153.92.39.197:8081/nexus/content/groups/public/</url>
+            <url>http://nexus.cloudapps.workshopdevops.com/content/groups/public/</url>
         </mirror>
     </mirrors>
     <profiles>
@@ -14,7 +14,7 @@
             <repositories>
                 <repository>
                     <id>central</id>
-                    <url>http://153.92.39.197:8081/nexus/content/repositories/central/</url>
+                    <url>http://nexus.cloudapps.workshopdevops.com/content/repositories/central/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
@@ -26,7 +26,7 @@
             <pluginRepositories>
                 <pluginRepository>
                     <id>central</id>
-                    <url>http://153.92.39.197:8081/nexus/content/repositories/central/</url>
+                    <url>http://nexus.cloudapps.workshopdevops.com/content/repositories/central/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
