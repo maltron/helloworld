@@ -4,7 +4,8 @@
             <!--This sends everything else to /public -->
             <id>nexus</id>
             <mirrorOf>*</mirrorOf>
-            <url>http://nexus.cloudapps.workshopdevops.com/content/groups/public/</url>
+<!--            <url>http://nexus.cloudapps.workshopdevops.com/content/groups/public/</url>-->
+                        <url>http://nexus.cloudapps.devops.com/content/groups/public/</url>
         </mirror>
     </mirrors>
     <profiles>
@@ -14,7 +15,7 @@
             <repositories>
                 <repository>
                     <id>central</id>
-                    <url>http://nexus.cloudapps.workshopdevops.com/content/repositories/central/</url>
+                    <url>http://nexus.cloudapps.devops.com/content/repositories/central/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
@@ -26,7 +27,7 @@
             <pluginRepositories>
                 <pluginRepository>
                     <id>central</id>
-                    <url>http://nexus.cloudapps.workshopdevops.com/content/repositories/central/</url>
+                    <url>http://nexus.cloudapps.devops.com/content/repositories/central/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
