@@ -11,11 +11,11 @@ public class Resource {
     
     @GET @Produces(MediaType.TEXT_PLAIN)
     public String myName() {
-        return "Nadia Ulanova";
+        return "Mauricio Leal";
     }
     
     @GET @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public Person myNameAsEntity() {
-        return new Person("Nadia", "Ulanova");
+        return new Person("Mauricio", "Leal");
     }
 }
